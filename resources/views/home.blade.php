@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +14,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: #bada55;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -31,39 +32,16 @@
                 justify-content: center;
             }
 
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
             .content {
                 text-align: center;
             }
 
             .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #400aff;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
+                font-size: 48px;
             }
         </style>
     </head>
+
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
@@ -81,13 +59,8 @@
                 <div class="title m-b-md">
                     Webhub
                 </div>
-
-                <div class="links">
-                    <a href="https://www.firecode.io" target="_blank">FireCode</a>
-                    <a href="https://laracasts.com" target="_blank">Laracasts</a>
-                    <a href="https://teamtreehouse.com" target="_blank">Team Treehouse</a>
-                </div>
             </div>
         </div>
     </body>
+
 </html>
