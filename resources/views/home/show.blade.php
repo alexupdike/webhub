@@ -15,9 +15,6 @@
             @endif
     
             <div class="content">
-                <div class="title m-b-md">
-                    Webhub
-                </div>
                 <div class="box">
                     We are in development.
                 </div>

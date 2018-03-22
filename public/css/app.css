@@ -10022,8 +10022,16 @@ html {
   text-align: center;
 }
 
-.title {
+.navbar {
+  position: fixed;
+  width: 100vw;
+  height: 65px;
+  background-color: #400aff;
+}
+
+.navbar .logo {
   font-size: 48px;
+  color: #ffffff;
 }
 
 .home-page .box {
