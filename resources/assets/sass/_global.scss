@@ -20,6 +20,13 @@ html {
     text-align: center;
 }
 
-.title {
-    font-size: 48px;
+.navbar {
+    position: fixed;
+    width: 100vw;
+    height: 65px;
+    background-color: $primary-color;
+    .logo {
+        font-size: 48px;
+        color: $background-color;
+    }
 }
